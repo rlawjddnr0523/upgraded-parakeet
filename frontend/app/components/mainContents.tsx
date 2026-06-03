@@ -9,6 +9,7 @@ export function MainContents() {
   const navigate = useNavigate();
 
   const { sid, mid } = useParams();
+
   const [searchParams] = useSearchParams();
 
   const tid = searchParams.get("tid");
