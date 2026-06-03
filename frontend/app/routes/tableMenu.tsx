@@ -1,4 +1,4 @@
-import type { Route } from "./+types/home";
+import type { Route } from "./+types/tableMenu";
 import { Welcome } from "~/welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
@@ -8,6 +8,10 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
-export default function Home() {
-  return <Welcome />;
+export default function TableMenu() {
+  return (
+    <>
+      <Welcome />
+    </>
+  );
 }
